@@ -376,12 +376,21 @@ body {
 <footer class="footer"> M_Thien <span> https://shadowsneko.github.io/mthien/ </span> ^~^ </footer>
 
 
-<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+<h1>My First Google Map</h1>
 
-<map name="workmap">
-  <area shape="rect" coords="10.8351755,106.8228488,17" alt="Computer" href="computer.htm">
-</map>
+<div id="googleMap" style="width:100%;height:400px;"></div>
 
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(10.837715,106.830536),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 
 
 
