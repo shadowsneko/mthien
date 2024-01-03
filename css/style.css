@@ -235,10 +235,10 @@ header .follow a:hover{
 }
 
 .about .row-1 .content .box-container{
+    flex:1 1 40rem;
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
-    padding: 0.5rem 0;
 }
 
 .about .row-1 .content .box-container .box{
