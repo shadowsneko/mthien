@@ -242,7 +242,11 @@ header .follow a:hover{
 }
 
 .about .row-1 .content .box-container .box{
-    flex:1 1 20rem;
+    flex:1 1 15rem;
+    background:#fff;
+    padding:2rem;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 }
 
 .about .row-1 .content .box-container .box span{
